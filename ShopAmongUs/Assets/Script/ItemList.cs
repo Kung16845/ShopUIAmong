@@ -3,7 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Invertory : MonoBehaviour
+public class ItemList : MonoBehaviour
 {
     public ItemData[] Items => itemList.ToArray();
     [SerializeField] List<ItemData> itemList = new List<ItemData>();
@@ -30,5 +30,9 @@ public class ItemData
 }
 public enum CategoryType
 {
-    Hats,Skins,Pets,Visors,Nameplates
+    Hats        =1,
+    Skins       =2,
+    Pets        =3,
+    Visors      =4,
+    Nameplates  =5
 }
