@@ -4,6 +4,8 @@ using System.Collections.Generic;
 using System.Data.Common;
 using UnityEngine;
 
+namespace ShopUIAmongUs
+{
 public class InventoryPresenter : MonoBehaviour
 {
     int currentItemIndex;
@@ -90,4 +92,5 @@ public class InventoryPresenter : MonoBehaviour
         public GameObject Header;
         public CategoryType Type;
     }
+}
 }

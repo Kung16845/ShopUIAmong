@@ -3,6 +3,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+namespace ShopUIAmongUs
+{
 public class ItemList : MonoBehaviour
 {
     public ItemData[] Items => itemList.ToArray();
@@ -27,6 +29,7 @@ public class ItemData
     public Sprite icon;
     public int price;
     public CategoryType type;
+    public int count;
 }
 public enum CategoryType
 {
@@ -35,4 +38,5 @@ public enum CategoryType
     Pets        =3,
     Visors      =4,
     Nameplates  =5
+}
 }
