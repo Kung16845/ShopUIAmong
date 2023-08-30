@@ -13,6 +13,6 @@ public class Playermoney : MonoBehaviour
     }
     public void UpdateMoneyText()
     {
-        moneyText.text = "Money: $" + currentmoney.ToString();
+        moneyText.text = " " + currentmoney.ToString();
     }
 }
