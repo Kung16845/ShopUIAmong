@@ -20,6 +20,7 @@ public class ItemList : MonoBehaviour
         }
         return resultList.ToArray();
     }
+   
 }
 
 [Serializable]
@@ -29,7 +30,6 @@ public class ItemData
     public Sprite icon;
     public int price;
     public CategoryType type;
-    public int count;
 }
 public enum CategoryType
 {

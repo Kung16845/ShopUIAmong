@@ -3,33 +3,33 @@ using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 using UnityEngine.UI;
+using System;
 // using Microsoft.Unity.VisualStudio.Editor;
 
 namespace ShopUIAmongUs
 {
     public class UIItem : MonoBehaviour
     {
-        [SerializeField] TextMeshPro itemNameText;
-        [SerializeField] TextMeshPro countText;
-        [SerializeField] Image pointerImage;
+        [SerializeField] TextMeshProUGUI priceitemText;
+        [SerializeField] Sprite iconImage;
+        public Purchase purchase;
         public void SetData(UIItem_Data data)
-        {
-            itemNameText.text = data.itemData.displayName;
-            countText.text = "X" + data.itemData.count;
-            pointerImage.gameObject.SetActive(data.isSelected);
+        {            
+            priceitemText.text = data.itemData.price.ToString();     
+            purchase.itemcost = data.itemData.price;
+            // iconImage = data.itemData.icon();  
         }
 
     }
-
     public class UIItem_Data
     {
         public ItemData itemData;
-        public bool isSelected;
 
-        public UIItem_Data(ItemData itemData, bool isSelected)
+        public UIItem_Data(ItemData itemData)
         {
             this.itemData = itemData;
-            this.isSelected = isSelected;
         }
     }
+    
+    
 }
