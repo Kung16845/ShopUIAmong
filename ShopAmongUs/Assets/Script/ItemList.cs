@@ -8,7 +8,10 @@ namespace ShopUIAmongUs
 public class ItemList : MonoBehaviour
 {
     public ItemData[] Items => itemList.ToArray();
-    [SerializeField] List<ItemData> itemList = new List<ItemData>();
+
+        public int Lenght { get; internal set; }
+
+        [SerializeField] List<ItemData> itemList = new List<ItemData>();
 
     public ItemData[] GetItemByType(CategoryType targetType)
     {
@@ -27,6 +30,7 @@ public class ItemList : MonoBehaviour
 public class ItemData
 {
     public string displayName;
+    public string displayDescription;
     public Sprite icon;
     public int price;
     public CategoryType type;
