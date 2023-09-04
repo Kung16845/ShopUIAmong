@@ -1544,139 +1544,129 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemList:
   - displayName: Eyelash
-    displayDescription: 1
+    displayDescription: Eyelash
     icon: {fileID: -610906167, guid: b1b80fb59b910b6429d3648cb5478754, type: 3}
     price: 500
-    type: 3
+    type: 4
   - displayName: Pirate
-    displayDescription: 2
+    displayDescription: Pirate
     icon: {fileID: 1871100196, guid: b1b80fb59b910b6429d3648cb5478754, type: 3}
     price: 500
-    type: 3
+    type: 4
   - displayName: :P
-    displayDescription: 3
+    displayDescription: :P
     icon: {fileID: -1663924646, guid: b1b80fb59b910b6429d3648cb5478754, type: 3}
     price: 500
-    type: 3
+    type: 4
   - displayName: UwU
-    displayDescription: 4
+    displayDescription: UwU
     icon: {fileID: 1735423117, guid: b1b80fb59b910b6429d3648cb5478754, type: 3}
     price: 200
-    type: 3
+    type: 4
   - displayName: OVO
-    displayDescription: 5
+    displayDescription: OVO
     icon: {fileID: 1882572118, guid: b1b80fb59b910b6429d3648cb5478754, type: 3}
     price: 200
-    type: 3
+    type: 4
   - displayName: Tear
-    displayDescription: 6
+    displayDescription: Tear
     icon: {fileID: 1487617702, guid: b1b80fb59b910b6429d3648cb5478754, type: 3}
     price: 200
-    type: 3
+    type: 4
   - displayName: KONO DIO DAAAAAA
-    displayDescription: 7
+    displayDescription: KONO DIO DAAAAAA
     icon: {fileID: 781963377, guid: b1b80fb59b910b6429d3648cb5478754, type: 3}
     price: 99999
-    type: 3
+    type: 4
   - displayName: Kawaii
-    displayDescription: 8
+    displayDescription: Kawaii
     icon: {fileID: 1428738361, guid: b1b80fb59b910b6429d3648cb5478754, type: 3}
     price: 600
-    type: 3
+    type: 2
   - displayName: NeverGonnaGive
-    displayDescription: 9
+    displayDescription: NeverGonnaGive
     icon: {fileID: 1614974541, guid: b1b80fb59b910b6429d3648cb5478754, type: 3}
     price: 2000
-    type: 3
+    type: 2
   - displayName: Satu Amen
-    displayDescription: 10
+    displayDescription: Satu Amen
     icon: {fileID: 1960535336, guid: b1b80fb59b910b6429d3648cb5478754, type: 3}
     price: 99
-    type: 3
+    type: 2
   - displayName: Monke
-    displayDescription: 11
+    displayDescription: Monke
     icon: {fileID: -939956220, guid: b1b80fb59b910b6429d3648cb5478754, type: 3}
     price: 69
-    type: 3
+    type: 2
   - displayName: AmongTa
-    displayDescription: 12
+    displayDescription: AmongTa
     icon: {fileID: -148871073, guid: b1b80fb59b910b6429d3648cb5478754, type: 3}
     price: 999
     type: 3
   - displayName: AmongNorn
-    displayDescription: 13
+    displayDescription: AmongNorn
     icon: {fileID: 371199483, guid: b1b80fb59b910b6429d3648cb5478754, type: 3}
     price: 0
-    type: 2
+    type: 3
   - displayName: AmongKung
-    displayDescription: 14
+    displayDescription: AmongKung
     icon: {fileID: -611690425, guid: b1b80fb59b910b6429d3648cb5478754, type: 3}
     price: 999
-    type: 2
+    type: 3
   - displayName: This is BANANA
-    displayDescription: 15
+    displayDescription: This is BANANA
     icon: {fileID: 1571340005, guid: b1b80fb59b910b6429d3648cb5478754, type: 3}
     price: 1234
     type: 1
   - displayName: Monke Hear
-    displayDescription: 16
+    displayDescription: Monke Hear
     icon: {fileID: -332973442, guid: b1b80fb59b910b6429d3648cb5478754, type: 3}
     price: 23
     type: 1
   - displayName: StarBandanana
-    displayDescription: 17
+    displayDescription: StarBandanana
     icon: {fileID: 1213723796, guid: b1b80fb59b910b6429d3648cb5478754, type: 3}
     price: 7070
     type: 1
   - displayName: Just Book
-    displayDescription: 18
+    displayDescription: Just Book
     icon: {fileID: -838531437, guid: b1b80fb59b910b6429d3648cb5478754, type: 3}
     price: 100
     type: 1
   - displayName: Just Flower
-    displayDescription: 19
+    displayDescription: Just Flower
     icon: {fileID: 1326556909, guid: b1b80fb59b910b6429d3648cb5478754, type: 3}
     price: 100
     type: 1
   - displayName: Just King
-    displayDescription: 20
+    displayDescription: Just King
     icon: {fileID: -20631695, guid: b1b80fb59b910b6429d3648cb5478754, type: 3}
     price: 100
     type: 1
   - displayName: Pride
-    displayDescription: 21
+    displayDescription: Pride
     icon: {fileID: -2019303203, guid: b1b80fb59b910b6429d3648cb5478754, type: 3}
     price: 6
-    type: 4
+    type: 5
   - displayName: Forest
-    displayDescription: 22
+    displayDescription: Forest
     icon: {fileID: -296569146, guid: b1b80fb59b910b6429d3648cb5478754, type: 3}
     price: 200
-    type: 4
+    type: 5
   - displayName: X
-    displayDescription: 23
+    displayDescription: X
     icon: {fileID: -362187933, guid: b1b80fb59b910b6429d3648cb5478754, type: 3}
     price: 55555
-    type: 4
+    type: 5
   - displayName: Bubble
-    displayDescription: 24
+    displayDescription: Bubble
     icon: {fileID: 311947488, guid: b1b80fb59b910b6429d3648cb5478754, type: 3}
     price: 100
-    type: 4
+    type: 5
   - displayName: Charoan
-    displayDescription: 25
+    displayDescription: Charoan
     icon: {fileID: -1774462641, guid: b1b80fb59b910b6429d3648cb5478754, type: 3}
     price: 99999
-    type: 4
-  - displayName: ad
-    displayDescription: 26
-    icon: {fileID: -1774462641, guid: b1b80fb59b910b6429d3648cb5478754, type: 3}
-    price: 100
-    type: 1
-  - displayName: ad
-    displayDescription: 27
-    icon: {fileID: 21300000, guid: 35a5e87c212979645b8831b6d0632318, type: 3}
-    price: 100
     type: 5
 --- !u!4 &876698058
 Transform:
@@ -2109,7 +2099,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 364.8, y: 233.9}
+  m_AnchoredPosition: {x: 364.8, y: 211}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1177553497
@@ -2416,14 +2406,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.9056604, g: 0.005695865, b: 0.81549025, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 21300000, guid: f9a9cfb0c98761a40b2a0d96811cc460, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -2971,7 +2961,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: -340, y: 26}
+  m_AnchoredPosition: {x: -340, y: -6}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0}
 --- !u!114 &1645653193
@@ -3217,7 +3207,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: 0, y: -100}
+  m_AnchoredPosition: {x: 0, y: -82}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!114 &1763868495
@@ -4013,8 +4003,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.1000061, y: -12.337505}
-  m_SizeDelta: {x: 160, y: 30}
+  m_AnchoredPosition: {x: -0.1000061, y: -11.039693}
+  m_SizeDelta: {x: 160, y: 47.9739}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &2749317596299740081
 GameObject:
@@ -4073,8 +4063,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.1, y: 1.2}
-  m_SizeDelta: {x: 100, y: 100}
+  m_AnchoredPosition: {x: -0.10001, y: 4.3}
+  m_SizeDelta: {x: 90.58821, y: 118.5021}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!224 &3899085618818403412
 RectTransform:
@@ -4325,8 +4315,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -4.12, y: -12.5}
-  m_SizeDelta: {x: 100, y: 100}
+  m_AnchoredPosition: {x: -4.12, y: -11.0847}
+  m_SizeDelta: {x: 100, y: 254.9643}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &7050848477365183064
 GameObject:

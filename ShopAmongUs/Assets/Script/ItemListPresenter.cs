@@ -39,17 +39,17 @@ public class InventoryPresenter : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.Alpha1))
         {
-            pageSize = 6;
+            pageSize = 3;
             RefreshUI();
         }
         else if (Input.GetKeyDown(KeyCode.Alpha2))
         {
-            pageSize = 9;
+            pageSize = 6;
             RefreshUI();
         }
         else if (Input.GetKeyDown(KeyCode.Alpha3))
         {
-            pageSize = 12;
+            pageSize = 9;
             RefreshUI();
         }
     }
