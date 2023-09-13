@@ -18,7 +18,6 @@ public class InventoryPresenter : MonoBehaviour
 
     void Start()
     {
-        
         RefreshUI();
     }
     
@@ -29,11 +28,6 @@ public class InventoryPresenter : MonoBehaviour
         textCategory.text = ((CategoryType)CatagoryNumber).ToString();
         RefreshUI();
     }
-    
-    // public void GetItemIndex()
-    // {
-    //     RefreshUI();
-    // }
     
     private void Update() 
     {
@@ -55,20 +49,14 @@ public class InventoryPresenter : MonoBehaviour
     }
     void RefreshUI()
     {
-        
         // Fetch items of the current category
         var itemsOfCurrentCategory = itemList.GetItemByType((CategoryType)currentCategoryIndex);
-
         int startIndex = currentShopPageIndex * pageSize;
         int endIndex = Mathf.Min(startIndex + pageSize, itemsOfCurrentCategory.Length);
 
         // Convert these items to UIItem_Data objects (as UIShop expects this format)
         List<UIItem_Data> uiItems = new List<UIItem_Data>();
         
-        // foreach (var item in itemsOfCurrentCategory)
-        // {
-        //      uiItems.Add(new UIItem_Data(item));
-        // }
         for (int i = startIndex; i < endIndex; i++)
         {
             uiItems.Add(new UIItem_Data(itemsOfCurrentCategory[i]));
@@ -101,7 +89,8 @@ public class InventoryPresenter : MonoBehaviour
 
     [SerializeField] List<CategoryData> CategoryList = new List<CategoryData>();
     public void refreshCategory(int CatagoryNumber)
-    {
+    {   
+        currentShopPageIndex = 0;
         foreach (CategoryData ThisCategory in CategoryList)
         {
             if ((int)ThisCategory.Type == CatagoryNumber)

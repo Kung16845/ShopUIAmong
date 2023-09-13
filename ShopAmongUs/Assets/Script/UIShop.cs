@@ -6,41 +6,12 @@ using UnityEngine;
 using UnityEngine.UI;
 namespace ShopUIAmongUs
 {
-public class UIShop : MonoBehaviour
-{
-    [Header ("item Shop")]
-    [SerializeField] Image imageitemShop;
-    [SerializeField] TextMeshProUGUI descriptionitemshop;
-
-    [Header ("Item Shop List")]
-    [SerializeField] UIItem itemShopUIPrefab;
-    [SerializeField] List<UIItem> itemShopUIList = new List<UIItem>();
-
-    private void Start()
+    public class UIShop : UIShopAbstraction
     {
-        itemShopUIPrefab.gameObject.SetActive(false);
-    }
-    public void SetItemShopList(UIItem_Data[] itemShopDatas)
-    {
-        foreach(var ItemShopUiData in itemShopDatas)
+        private void Start()
         {
-            var newitemShopUI = Instantiate(itemShopUIPrefab,itemShopUIPrefab.transform.parent,false);
-
-            newitemShopUI.gameObject.SetActive(true);
-            itemShopUIList.Add(newitemShopUI);
-            newitemShopUI.SetData(ItemShopUiData);
+            itemShopUIPrefab.gameObject.SetActive(false);
         }
-    }
-    public void ClearAllItem()
-    {
-            foreach(UIItem itemShopUi in itemShopUIList)
-            {
-                Destroy(itemShopUi.gameObject); 
-            }
-            
-            itemShopUIList.Clear(); 
-    }
 
-    
-}
+    }
 }
