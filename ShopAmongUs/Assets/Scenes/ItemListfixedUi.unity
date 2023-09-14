@@ -4277,8 +4277,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   priceitemText: {fileID: 8536343933792464580}
-  ShopItemdescrition: {fileID: 1645653193}
   iconImage: {fileID: 0}
+  ShopItemdescrition: {fileID: 1645653193}
   description: 
   gameObjectShop: {fileID: 4017724131298098969}
   purchase: {fileID: 5082556150283371097}
