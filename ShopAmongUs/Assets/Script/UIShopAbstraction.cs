@@ -6,7 +6,7 @@ using UnityEngine.UI;
 
 namespace ShopUIAmongUs
 {
-    public class UIShopAbstraction : MonoBehaviour
+    public abstract class UIShopAbstraction : MonoBehaviour
     {
         [Header("item Shop")]
         [SerializeField] Image imageitemShop;

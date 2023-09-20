@@ -9,7 +9,7 @@ using UnityEngine.EventSystems;
 
 namespace ShopUIAmongUs
 {
-public class UIItemAbstraction : MonoBehaviour
+public abstract class UIItemAbstraction : MonoBehaviour
     {
         
     [SerializeField] TextMeshProUGUI priceitemText;
