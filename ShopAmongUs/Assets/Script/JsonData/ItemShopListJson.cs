@@ -6,6 +6,7 @@ using Newtonsoft.Json;
 using UnityEngine;
 using UnityEngine.Networking;
 using PhEngine.Core;
+using Microsoft.Unity.VisualStudio.Editor;
 
 namespace ShopUIAmongUs.Json
 {
@@ -19,6 +20,7 @@ namespace ShopUIAmongUs.Json
         [SerializeField] string onlineLoadPath;
         [Header("UI")] [SerializeField] Transform itemShopParent;
         [SerializeField] UIShopJson uIItemPrefab;
+        [SerializeField] List<Sprite> ImagesPrefab;
         [SerializeField] List<UIShopJson> uIItemsList = new List<UIShopJson>();
 
         [ContextMenu(nameof(TestJsonConvert))]
@@ -138,7 +140,8 @@ namespace ShopUIAmongUs.Json
                 var newUI = Instantiate(uIItemPrefab, itemShopParent, false);
                 newUI.gameObject.SetActive(true);
                 newUI.SetDataJson(itemDatasList[i]);
-
+                var photo = ImagesPrefab[i];
+                newUI.SetPhoto(photo);    
                 var photoUrl = itemDatasList[i].icon;
                 StartCoroutine(LoadPhotoFromUrl(photoUrl, newUI.SetPhoto));
                 uIItemsList.Add(newUI);

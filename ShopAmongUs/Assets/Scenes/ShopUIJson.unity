@@ -97,7 +97,7 @@ LightmapSettings:
     m_ExportTrainingData: 0
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
-  m_LightingDataAsset: {fileID: 0}
+  m_LightingDataAsset: {fileID: 112000000, guid: a93aba641c38daf4ebd327a507445ae1, type: 2}
   m_LightingSettings: {fileID: 0}
 --- !u!196 &4
 NavMeshSettings:
@@ -2567,6 +2567,10 @@ MonoBehaviour:
   onlineLoadPath: https://drive.google.com/uc?export=download&id=1w-lNWbmXxHgO53jHovjJsco5SYX1mfbg
   itemShopParent: {fileID: 1280784863}
   uIItemPrefab: {fileID: 5467527569031881353}
+  ImagesPrefab:
+  - {fileID: -610906167, guid: b1b80fb59b910b6429d3648cb5478754, type: 3}
+  - {fileID: 1871100196, guid: b1b80fb59b910b6429d3648cb5478754, type: 3}
+  - {fileID: -1663924646, guid: b1b80fb59b910b6429d3648cb5478754, type: 3}
   uIItemsList: []
 --- !u!1 &1331451917
 GameObject:
