@@ -6,15 +6,152 @@
         "type": "Visors"
     }, 
     {
-        "displayname": "qwelash",
-        "displaydescription": "Eqwh",
-        "price": "880",
-        "type": "Hats"
+        "displayname": "Pirate",
+        "displaydescription": "Pirate",
+        "price": "500",
+        "type": "Visors"
+    },
+    {
+        "displayname": ":P",
+        "displaydescription": ":P",
+        "price": "500",
+        "type": "Visors"
     },
     {
         "displayname": "122",
-        "displaydescription": "E31h",
-        "price": "50",
+        "displaydescription": "122",
+        "price": "200",
+        "type": "Visors"
+    },
+    {
+        "displayname": "UWU",
+        "displaydescription": "UWU",
+        "price": "200",
+        "type": "Visors"
+    },
+    {
+        "displayname": "OVO",
+        "displaydescription": "OVO",
+        "price": "200",
+        "type": "Visors"
+    },
+    {
+        "displayname": "Tear",
+        "displaydescription": "Tear",
+        "price": "200",
+        "type": "Visors"
+    },
+    {
+        "displayname": "KONO DIO DAAAAA",
+        "displaydescription": "KONO DIO DAAAAA",
+        "price": "99999",
+        "type": "Visors"
+    },
+    {
+        "displayname": "Kawaii",
+        "displaydescription": "Kawaii",
+        "price": "20000",
         "type": "Skins"
     }
+    ,{
+        "displayname": "NeverGonnaGive",
+        "displaydescription": "NeverGonnaGive",
+        "price": "2000",
+        "type": "Skins"
+    }
+    ,{
+        "displayname": "Satu Amen",
+        "displaydescription": "Satu Amen",
+        "price": "99",
+        "type": "Skins"
+    }
+    ,{
+        "displayname": "Monke",
+        "displaydescription": "Monke",
+        "price": "66",
+        "type": "Skins"
+    },{
+        "displayname": "AmongTa",
+        "displaydescription": "AmongTa",
+        "price": "999",
+        "type": "Pets"
+    }
+    ,{
+        "displayname": "AmongNorn",
+        "displaydescription": "AmongNorn",
+        "price": "0",
+        "type": "Pets"
+    }
+    ,{
+        "displayname": "AmongKung",
+        "displaydescription": "AmongKung",
+        "price": "999",
+        "type": "Pets"
+    }
+    ,{
+        "displayname": "This is BANANA",
+        "displaydescription": "This is BANANA",
+        "price": "1234",
+        "type": "Hats"
+    }
+    ,{
+        "displayname": "Monke Hear",
+        "displaydescription": "Monke Hear",
+        "price": "23",
+        "type": "Hats"
+    }
+    ,{
+        "displayname": "StarBandanana",
+        "displaydescription": "StarBandanana",
+        "price": "7070",
+        "type": "Hats"
+    }
+    ,{
+        "displayname": "Just Book",
+        "displaydescription": "Just Book",
+        "price": "100",
+        "type": "Hats"
+    }
+    ,{
+        "displayname": "Just Flower",
+        "displaydescription": "Just Flower",
+        "price": "100",
+        "type": "Hats"
+    }
+    ,{
+        "displayname": "Just King",
+        "displaydescription": "Just King",
+        "price": "100",
+        "type": "Hats"
+    }
+    ,{
+        "displayname": "Pride",
+        "displaydescription": "Pride",
+        "price": "6",
+        "type": "NamePlates"
+    }
+    ,{
+        "displayname": "Forest",
+        "displaydescription": "Forest",
+        "price": "200",
+        "type": "NamePlates"
+    }
+    ,{
+        "displayname": "X",
+        "displaydescription": "X",
+        "price": "55555",
+        "type": "NamePlates"
+    }
+    ,{
+        "displayname": "Bubble",
+        "displaydescription": "Bubble",
+        "price": "100",
+        "type": "NamePlates"
+    },{
+        "displayname": "Charoan",
+        "displaydescription": "Charoan",
+        "price": "99999",
+        "type": "NamePlates"
+    }
+
 ]
