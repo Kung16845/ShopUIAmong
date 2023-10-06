@@ -4596,6 +4596,7 @@ GameObject:
   - component: {fileID: 1328139406549106151}
   - component: {fileID: 861083281508836227}
   - component: {fileID: 5467527569031881353}
+  - component: {fileID: 5467527569031881354}
   m_Layer: 5
   m_Name: ItemShopPanel
   m_TagString: Untagged
@@ -4621,6 +4622,19 @@ MonoBehaviour:
   description: 
   gameObjectShop: {fileID: 4017724131298098969}
   purchase: {fileID: 5082556150283371097}
+--- !u!114 &5467527569031881354
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5467527569031881352}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e38493920ace3d479a4b02f5b41ef24, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fadeTime: 1
 --- !u!222 &6570389441010242247
 CanvasRenderer:
   m_ObjectHideFlags: 0
