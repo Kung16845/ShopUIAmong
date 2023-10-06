@@ -4384,7 +4384,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   buybotton: {fileID: 4927666868456169813}
   itemcost: 0
-  playerMoneyObject: {fileID: 0}
+  playerMoneyObject: {fileID: 839893749}
   playerMoneyScript: {fileID: 839893750}
   price: {fileID: 8536343933792464580}
 --- !u!1 &5467527569031881352
