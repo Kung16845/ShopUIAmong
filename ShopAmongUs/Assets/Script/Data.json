@@ -1,0 +1,183 @@
+[
+    {
+        "displayname": "Eyelash",
+        "displaydescription": "Eyelash",
+        "price": "500",
+        "icon" : "item_0",
+        "type": "Visors"
+    }, 
+    {
+        "displayname": "Pirate",
+        "displaydescription": "Pirate",
+        "icon" : "item_1",
+        "price": "500",
+        "type": "Visors"
+    },
+    {
+        "displayname": ":P",
+        "displaydescription": ":P",
+        "icon" : "item_2",
+        "price": "500",
+        "type": "Visors"
+    },
+    {
+        "displayname": "122",
+        "displaydescription": "122",
+        "icon" : "item_3",
+        "price": "200",
+        "type": "Visors"
+    },
+    {
+        "displayname": "UWU",
+        "displaydescription": "UWU",
+        "icon" : "item_4",
+        "price": "200",
+        "type": "Visors"
+    },
+    {
+        "displayname": "OVO",
+        "displaydescription": "OVO",
+        "icon" : "item_5",
+        "price": "200",
+        "type": "Visors"
+    },
+    {
+        "displayname": "Tear",
+        "displaydescription": "Tear",
+        "icon" : "item_6",
+        "price": "200",
+        "type": "Visors"
+    },
+    {
+        "displayname": "KONO DIO DAAAAA",
+        "displaydescription": "KONO DIO DAAAAA",
+        "icon" : "item_7",
+        "price": "99999",
+        "type": "Visors"
+    },
+    {
+        "displayname": "Kawaii",
+        "displaydescription": "Kawaii",
+        "icon" : "item_8",
+        "price": "20000",
+        "type": "Skins"
+    }
+    ,{
+        "displayname": "NeverGonnaGive",
+        "displaydescription": "NeverGonnaGive",
+        "icon" : "item_9",
+        "price": "2000",
+        "type": "Skins"
+    }
+    ,{
+        "displayname": "Satu Amen",
+        "displaydescription": "Satu Amen",
+        "icon" : "item_10",
+        "price": "99",
+        "type": "Skins"
+    }
+    ,{
+        "displayname": "Monke",
+        "displaydescription": "Monke",
+        "icon" : "item_11",
+        "price": "66",
+        "type": "Skins"
+    },{
+        "displayname": "AmongTa",
+        "displaydescription": "AmongTa",
+        "icon" : "item_12",
+        "price": "999",
+        "type": "Pets"
+    }
+    ,{
+        "displayname": "AmongNorn",
+        "displaydescription": "AmongNorn",
+        "icon" : "item_13",
+        "price": "0",
+        "type": "Pets"
+    }
+    ,{
+        "displayname": "AmongKung",
+        "displaydescription": "AmongKung",
+        "icon" : "item_14",
+        "price": "999",
+        "type": "Pets"
+    }
+    ,{
+        "displayname": "This is BANANA",
+        "displaydescription": "This is BANANA",
+        "icon" : "item_15",
+        "price": "1234",
+        "type": "Hats"
+    }
+    ,{
+        "displayname": "Monke Hear",
+        "displaydescription": "Monke Hear",
+        "icon" : "item_16",
+        "price": "23",
+        "type": "Hats"
+    }
+    ,{
+        "displayname": "StarBandanana",
+        "displaydescription": "StarBandanana",
+        "icon" : "item_17",
+        "price": "7070",
+        "type": "Hats"
+    }
+    ,{
+        "displayname": "Just Book",
+        "displaydescription": "Just Book",
+        "icon" : "item_17",
+        "price": "100",
+        "type": "Hats"
+    }
+    ,{
+        "displayname": "Just Flower",
+        "displaydescription": "Just Flower",
+        "icon" : "item_18",
+        "price": "100",
+        "type": "Hats"
+    }
+    ,{
+        "displayname": "Just King",
+        "displaydescription": "Just King",
+        "icon" : "item_19",
+        "price": "100",
+        "type": "Hats"
+    }
+    ,{
+        "displayname": "Pride",
+        "displaydescription": "Pride",
+        "icon" : "item_20",
+        "price": "6",
+        "type": "NamePlates"
+    }
+    ,{
+        "displayname": "Forest",
+        "displaydescription": "Forest",
+        "icon" : "item_21",
+        "price": "200",
+        "type": "NamePlates"
+    }
+    ,{
+        "displayname": "X",
+        "displaydescription": "X",
+        "icon" : "item_22",
+        "price": "55555",
+        "type": "NamePlates"
+    }
+    ,{
+        "displayname": "Bubble",
+        "displaydescription": "Bubble",
+        "icon" : "item_23",
+        "price": "100",
+        "type": "NamePlates"
+    },{
+        "displayname": "Charoan",
+        "displaydescription": "Charoan",
+        "icon" : "item_24",
+        "price": "99999",
+        "type": "NamePlates"
+    }
+
+]

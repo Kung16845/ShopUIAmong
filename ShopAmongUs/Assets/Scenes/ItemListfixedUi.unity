@@ -1542,132 +1542,36 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1aa883064ea9ff648a0c9dbea7b0201b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemList:
-  - displayName: Eyelash
-    displayDescription: Eyelash
-    icon: {fileID: -610906167, guid: b1b80fb59b910b6429d3648cb5478754, type: 3}
-    price: 500
-    type: 4
-  - displayName: Pirate
-    displayDescription: Pirate
-    icon: {fileID: 1871100196, guid: b1b80fb59b910b6429d3648cb5478754, type: 3}
-    price: 500
-    type: 4
-  - displayName: :P
-    displayDescription: :P
-    icon: {fileID: -1663924646, guid: b1b80fb59b910b6429d3648cb5478754, type: 3}
-    price: 500
-    type: 4
-  - displayName: UwU
-    displayDescription: UwU
-    icon: {fileID: 1735423117, guid: b1b80fb59b910b6429d3648cb5478754, type: 3}
-    price: 200
-    type: 4
-  - displayName: OVO
-    displayDescription: OVO
-    icon: {fileID: 1882572118, guid: b1b80fb59b910b6429d3648cb5478754, type: 3}
-    price: 200
-    type: 4
-  - displayName: Tear
-    displayDescription: Tear
-    icon: {fileID: 1487617702, guid: b1b80fb59b910b6429d3648cb5478754, type: 3}
-    price: 200
-    type: 4
-  - displayName: KONO DIO DAAAAAA
-    displayDescription: KONO DIO DAAAAAA
-    icon: {fileID: 781963377, guid: b1b80fb59b910b6429d3648cb5478754, type: 3}
-    price: 99999
-    type: 4
-  - displayName: Kawaii
-    displayDescription: Kawaii
-    icon: {fileID: 1428738361, guid: b1b80fb59b910b6429d3648cb5478754, type: 3}
-    price: 600
-    type: 2
-  - displayName: NeverGonnaGive
-    displayDescription: NeverGonnaGive
-    icon: {fileID: 1614974541, guid: b1b80fb59b910b6429d3648cb5478754, type: 3}
-    price: 2000
-    type: 2
-  - displayName: Satu Amen
-    displayDescription: Satu Amen
-    icon: {fileID: 1960535336, guid: b1b80fb59b910b6429d3648cb5478754, type: 3}
-    price: 99
-    type: 2
-  - displayName: Monke
-    displayDescription: Monke
-    icon: {fileID: -939956220, guid: b1b80fb59b910b6429d3648cb5478754, type: 3}
-    price: 69
-    type: 2
-  - displayName: AmongTa
-    displayDescription: AmongTa
-    icon: {fileID: -148871073, guid: b1b80fb59b910b6429d3648cb5478754, type: 3}
-    price: 999
-    type: 3
-  - displayName: AmongNorn
-    displayDescription: AmongNorn
-    icon: {fileID: 371199483, guid: b1b80fb59b910b6429d3648cb5478754, type: 3}
-    price: 0
-    type: 3
-  - displayName: AmongKung
-    displayDescription: AmongKung
-    icon: {fileID: -611690425, guid: b1b80fb59b910b6429d3648cb5478754, type: 3}
-    price: 999
-    type: 3
-  - displayName: This is BANANA
-    displayDescription: This is BANANA
-    icon: {fileID: 1571340005, guid: b1b80fb59b910b6429d3648cb5478754, type: 3}
-    price: 1234
-    type: 1
-  - displayName: Monke Hear
-    displayDescription: Monke Hear
-    icon: {fileID: -332973442, guid: b1b80fb59b910b6429d3648cb5478754, type: 3}
-    price: 23
-    type: 1
-  - displayName: StarBandanana
-    displayDescription: StarBandanana
-    icon: {fileID: 1213723796, guid: b1b80fb59b910b6429d3648cb5478754, type: 3}
-    price: 7070
-    type: 1
-  - displayName: Just Book
-    displayDescription: Just Book
-    icon: {fileID: -838531437, guid: b1b80fb59b910b6429d3648cb5478754, type: 3}
-    price: 100
-    type: 1
-  - displayName: Just Flower
-    displayDescription: Just Flower
-    icon: {fileID: 1326556909, guid: b1b80fb59b910b6429d3648cb5478754, type: 3}
-    price: 100
-    type: 1
-  - displayName: Just King
-    displayDescription: Just King
-    icon: {fileID: -20631695, guid: b1b80fb59b910b6429d3648cb5478754, type: 3}
-    price: 100
-    type: 1
-  - displayName: Pride
-    displayDescription: Pride
-    icon: {fileID: -2019303203, guid: b1b80fb59b910b6429d3648cb5478754, type: 3}
-    price: 6
-    type: 5
-  - displayName: Forest
-    displayDescription: Forest
-    icon: {fileID: -296569146, guid: b1b80fb59b910b6429d3648cb5478754, type: 3}
-    price: 200
-    type: 5
-  - displayName: X
-    displayDescription: X
-    icon: {fileID: -362187933, guid: b1b80fb59b910b6429d3648cb5478754, type: 3}
-    price: 55555
-    type: 5
-  - displayName: Bubble
-    displayDescription: Bubble
-    icon: {fileID: 311947488, guid: b1b80fb59b910b6429d3648cb5478754, type: 3}
-    price: 100
-    type: 5
-  - displayName: Charoan
-    displayDescription: Charoan
-    icon: {fileID: -1774462641, guid: b1b80fb59b910b6429d3648cb5478754, type: 3}
-    price: 99999
-    type: 5
+  allphoto:
+  - {fileID: -610906167, guid: b1b80fb59b910b6429d3648cb5478754, type: 3}
+  - {fileID: 1871100196, guid: b1b80fb59b910b6429d3648cb5478754, type: 3}
+  - {fileID: -1663924646, guid: b1b80fb59b910b6429d3648cb5478754, type: 3}
+  - {fileID: 1735423117, guid: b1b80fb59b910b6429d3648cb5478754, type: 3}
+  - {fileID: 1882572118, guid: b1b80fb59b910b6429d3648cb5478754, type: 3}
+  - {fileID: 1487617702, guid: b1b80fb59b910b6429d3648cb5478754, type: 3}
+  - {fileID: 781963377, guid: b1b80fb59b910b6429d3648cb5478754, type: 3}
+  - {fileID: 1428738361, guid: b1b80fb59b910b6429d3648cb5478754, type: 3}
+  - {fileID: 1614974541, guid: b1b80fb59b910b6429d3648cb5478754, type: 3}
+  - {fileID: 1960535336, guid: b1b80fb59b910b6429d3648cb5478754, type: 3}
+  - {fileID: -939956220, guid: b1b80fb59b910b6429d3648cb5478754, type: 3}
+  - {fileID: -148871073, guid: b1b80fb59b910b6429d3648cb5478754, type: 3}
+  - {fileID: 371199483, guid: b1b80fb59b910b6429d3648cb5478754, type: 3}
+  - {fileID: -611690425, guid: b1b80fb59b910b6429d3648cb5478754, type: 3}
+  - {fileID: 1571340005, guid: b1b80fb59b910b6429d3648cb5478754, type: 3}
+  - {fileID: -332973442, guid: b1b80fb59b910b6429d3648cb5478754, type: 3}
+  - {fileID: 1213723796, guid: b1b80fb59b910b6429d3648cb5478754, type: 3}
+  - {fileID: -838531437, guid: b1b80fb59b910b6429d3648cb5478754, type: 3}
+  - {fileID: 1326556909, guid: b1b80fb59b910b6429d3648cb5478754, type: 3}
+  - {fileID: -20631695, guid: b1b80fb59b910b6429d3648cb5478754, type: 3}
+  - {fileID: -2019303203, guid: b1b80fb59b910b6429d3648cb5478754, type: 3}
+  - {fileID: -296569146, guid: b1b80fb59b910b6429d3648cb5478754, type: 3}
+  - {fileID: -362187933, guid: b1b80fb59b910b6429d3648cb5478754, type: 3}
+  - {fileID: 311947488, guid: b1b80fb59b910b6429d3648cb5478754, type: 3}
+  - {fileID: -1774462641, guid: b1b80fb59b910b6429d3648cb5478754, type: 3}
+  - {fileID: 21300000, guid: 6b2bf1d6534c3af4d8423c93be2bdbb2, type: 3}
+  itemList: []
+  savePath: Script/Data.json
+  onlineLoadPath: https://drive.google.com/uc?export=download&id=1hA29zK5-gOuoj5sruk4G76raH62eUdxc
 --- !u!4 &876698058
 Transform:
   m_ObjectHideFlags: 0

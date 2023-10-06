@@ -23,6 +23,7 @@ namespace ShopUIAmongUs
 
                 newitemShopUI.gameObject.SetActive(true);
                 itemShopUIList.Add(newitemShopUI);
+                
                 newitemShopUI.SetData(ItemShopUiData);
             }
         }

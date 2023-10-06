@@ -4,36 +4,44 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Networking;
-
+using System.IO;
 namespace ShopUIAmongUs
 {
-public class ItemList : MonoBehaviour
-{
-    public ItemData[] Items => itemList.ToArray();
-
+    public class ItemList : MonoBehaviour
+    {
+        public ItemData[] Items => itemList.ToArray();
+        public List<Sprite> allphoto;
         public int Lenght { get; internal set; }
 
         [SerializeField] List<ItemData> itemList = new List<ItemData>();
 
-    public ItemData[] GetItemByType(CategoryType targetType)
-    {
-        var resultList = new List<ItemData>();
-        foreach (var itemData in itemList)
+        public ItemData[] GetItemByType(CategoryType targetType)
         {
-            if (itemData.type == targetType)
-                resultList.Add(itemData);
+            var resultList = new List<ItemData>();
+            foreach (var itemData in itemList)
+            {
+                if (itemData.type == targetType)
+                    resultList.Add(itemData);
+            }
+            return resultList.ToArray();
         }
-        return resultList.ToArray();
-    }
+        void Start()
+        {
 
-
+        }
 
         [Header("Saving")]
         [SerializeField] string savePath;
         [SerializeField] string onlineLoadPath;
-
-
-
+        public void SetPhoto()
+        {
+            int i = 0;
+            foreach (var icon in allphoto)
+            {
+                Items[i].icon = icon;
+                i++;
+            }
+        }
         public void LoadScoreFromGoogleDrive()
         {
             StartCoroutine(MyCoroutine(onlineLoadPath));
@@ -43,6 +51,7 @@ public class ItemList : MonoBehaviour
         {
             Debug.Log("Coroutine started");
             yield return LoadScoreRoutine(url);
+            SetPhoto();
             Debug.Log("Coroutine finished");
         }
 
@@ -68,21 +77,21 @@ public class ItemList : MonoBehaviour
         }
     }
 
-[Serializable]
-public class ItemData
-{
-    public string displayName;
-    public string displayDescription;
-    public Sprite icon;
-    public int price;
-    public CategoryType type;
-}
-public enum CategoryType
-{
-    Hats        =1,
-    Skins       =2,
-    Pets        =3,
-    Visors      =4,
-    Nameplates  =5
-}
+    [Serializable]
+    public class ItemData
+    {
+        public string displayName;
+        public string displayDescription;
+        public Sprite icon;
+        public int price;
+        public CategoryType type;
+    }
+    public enum CategoryType
+    {
+        Hats = 1,
+        Skins = 2,
+        Pets = 3,
+        Visors = 4,
+        Nameplates = 5
+    }
 }
