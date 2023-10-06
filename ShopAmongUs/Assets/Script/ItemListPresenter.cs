@@ -16,10 +16,10 @@ public class InventoryPresenter : MonoBehaviour
     [SerializeField] ItemList itemList;
     [SerializeField] TextMeshProUGUI textCategory;      
 
-    void Start()
+    public void setShopStart()
     {
         itemList.LoadScoreFromGoogleDrive();
-        RefreshUI();
+
     }
     
     public void GetCatagory(int CatagoryNumber)

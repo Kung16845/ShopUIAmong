@@ -9,6 +9,7 @@ namespace ShopUIAmongUs
 {
     public class ItemList : MonoBehaviour
     {
+        InventoryPresenter temp;
         public ItemData[] Items => itemList.ToArray();
         public List<Sprite> allphoto;
         public int Lenght { get; internal set; }
@@ -27,12 +28,14 @@ namespace ShopUIAmongUs
         }
         void Start()
         {
-
+            temp = this.GetComponent<InventoryPresenter>();
         }
 
         [Header("Saving")]
         [SerializeField] string savePath;
-        [SerializeField] string onlineLoadPath;
+        [SerializeField] public string onlineLoadPath;
+        [Header("LoadingBean")]
+        [SerializeField] GameObject LoadingBean;
         public void SetPhoto()
         {
             int i = 0;
@@ -47,12 +50,13 @@ namespace ShopUIAmongUs
             StartCoroutine(MyCoroutine(onlineLoadPath));
         }
 
-        IEnumerator MyCoroutine(string url)
+        public IEnumerator MyCoroutine(string url)
         {
-            Debug.Log("Coroutine started");
+            Debug.Log("Coroutine started"); LoadingBean.SetActive(true);
             yield return LoadScoreRoutine(url);
             SetPhoto();
-            Debug.Log("Coroutine finished");
+            Debug.Log("Coroutine finished"); LoadingBean.SetActive(false);
+            temp.GetCatagory(1);
         }
 
         IEnumerator LoadScoreRoutine(string url)

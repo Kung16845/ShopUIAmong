@@ -8,33 +8,25 @@ namespace ShopUIAmongUs
     {
     // Start is called before the first frame update
     [SerializeField] GameObject closeButton;
-    [SerializeField] ItemList itemList;
-    void Start()
+    [SerializeField] InventoryPresenter itemList;
+    [SerializeField] Animation_DOtween anima;
+    bool isShopOpen=false;
+        
+        void Start()
     {
-        // Initially, hide the close button
-        closeButton.SetActive(false);
+        anima.ExitTransition();
     }
 
-    // Update is called once per frame
-    void Update()
+    public void Clickshop()
     {
-        // Check if data is loaded (you may need a reference to your ItemList script)
-        if (ItemListIsLoaded())
-        {
-            // If data is loaded, show the close button
-            closeButton.SetActive(true);
+            if (isShopOpen) { anima.ExitTransition();  }
+            else { anima.EnterTransition();
+                itemList.setShopStart();
+            }
+            isShopOpen = !isShopOpen;
         }
-    }
-    bool ItemListIsLoaded()
-    {
-    if (itemList != null)
-    {
-        return true;
-    }
-    else
-    {
-        return false;
-    }
+
+ 
 }
 }
-}
+
