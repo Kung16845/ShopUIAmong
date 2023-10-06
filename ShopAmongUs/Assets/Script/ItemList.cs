@@ -1,7 +1,9 @@
+using Newtonsoft.Json;
 using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Networking;
 
 namespace ShopUIAmongUs
 {
@@ -23,8 +25,48 @@ public class ItemList : MonoBehaviour
         }
         return resultList.ToArray();
     }
-   
-}
+
+
+
+        [Header("Saving")]
+        [SerializeField] string savePath;
+        [SerializeField] string onlineLoadPath;
+
+
+
+        public void LoadScoreFromGoogleDrive()
+        {
+            StartCoroutine(MyCoroutine(onlineLoadPath));
+        }
+
+        IEnumerator MyCoroutine(string url)
+        {
+            Debug.Log("Coroutine started");
+            yield return LoadScoreRoutine(url);
+            Debug.Log("Coroutine finished");
+        }
+
+        IEnumerator LoadScoreRoutine(string url)
+        {
+            var webRequest = UnityWebRequest.Get(url);
+
+            // Get download progress
+            var progress = webRequest.downloadProgress;
+
+            yield return webRequest.SendWebRequest();
+
+            if (webRequest.result != UnityWebRequest.Result.Success)
+            {
+                Debug.LogError(webRequest.error);
+            }
+            else
+            {
+                var downloadedText = webRequest.downloadHandler.text;
+                Debug.Log("Receive Data : " + downloadedText);
+                itemList = JsonConvert.DeserializeObject<List<ItemData>>(downloadedText);
+            }
+        }
+    }
 
 [Serializable]
 public class ItemData

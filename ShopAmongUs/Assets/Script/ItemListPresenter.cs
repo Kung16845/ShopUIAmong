@@ -18,6 +18,7 @@ public class InventoryPresenter : MonoBehaviour
 
     void Start()
     {
+        itemList.LoadScoreFromGoogleDrive();
         RefreshUI();
     }
     
